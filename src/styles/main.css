@@ -1,0 +1,20 @@
+main {
+    position: relative;
+    width: var(--width-60);
+    height: var(--height-auto);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: var(--margin-0);
+    padding: var(--padding-0);
+    box-sizing: border-box;
+    min-height: var(--height-80-vh);
+}
+
+@media screen and (max-width: 768px) {
+    main {
+        width: var(--width-100-vw);
+        flex-direction: column;
+    }
+}
